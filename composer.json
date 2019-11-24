@@ -1,0 +1,16 @@
+{
+  "name": "fall/mvc",
+  "description": "A package to handle http request",
+  "require": {
+    "php": "^7.1",
+    "fall/core": "dev-master"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  },
+  "autoload": {
+    "psr-4": {
+      "fall\\mvc\\": "src"
+    }
+  }
+}
